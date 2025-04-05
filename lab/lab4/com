@@ -1,0 +1,6 @@
+#!/bin/bash
+gcc lab.c -o lab
+if [ $? -eq 0 ]
+ then
+ ./lab <7x9
+fi
